@@ -2102,6 +2102,7 @@ GameObject:
   - component: {fileID: 698698436}
   - component: {fileID: 698698441}
   - component: {fileID: 698698440}
+  - component: {fileID: 698698442}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -2260,6 +2261,22 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &698698442
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 698698435}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 898d8731746ce0949aff743985fef4fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerCamera: {fileID: 956863649}
+  lookSpeed: 2
+  maxYawAngle: 250
+  maxPitchAngle: 60
 --- !u!1 &709284906
 GameObject:
   m_ObjectHideFlags: 0
@@ -3383,7 +3400,7 @@ Camera:
     height: 1
   near clip plane: 0.1
   far clip plane: 5000
-  field of view: 60
+  field of view: 70
   orthographic: 0
   orthographic size: 10
   m_Depth: 0
@@ -11060,6 +11077,54 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1453717198}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2072474984
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2072474985}
+  - component: {fileID: 2072474986}
+  m_Layer: 0
+  m_Name: Scene1Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2072474985
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2072474984}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 174.13712, y: 20.648249, z: 938.7164}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2072474986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2072474984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89b2eb33698329f41a61e185c7842811, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _Player: {fileID: 698698435}
+  _Car: {fileID: 2364074245972760296}
+  _Camera: {fileID: 956863652}
+  SittingPoint: {fileID: 2349284022372689548}
 --- !u!1 &2088575855
 GameObject:
   m_ObjectHideFlags: 0
@@ -11143,6 +11208,37 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2088575855}
   m_Mesh: {fileID: 1678934727}
+--- !u!1 &2101867568
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2101867569}
+  m_Layer: 0
+  m_Name: CarAutoPath
+  m_TagString: Untagged
+  m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2101867569
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2101867568}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 363.8, y: 3, z: 907.7}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!43 &2111358271
 Mesh:
   m_ObjectHideFlags: 0
@@ -14005,6 +14101,7 @@ GameObject:
   - component: {fileID: 4873567240731609636}
   - component: {fileID: 2147217804756473799}
   - component: {fileID: 3567151342974032484}
+  - component: {fileID: 4873567240731609637}
   m_Layer: 0
   m_Name: Car
   m_TagString: Car
@@ -15255,7 +15352,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2364074245972760296}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1a439f101c4664746863ca99adda41ef, type: 3}
   m_Name: 
@@ -15267,6 +15364,7 @@ MonoBehaviour:
   ExitPoint: {fileID: 6403494324214945821}
   _Camera: {fileID: 956863652}
   Incar: 0
+  DriveCarPermission: 0
   InReach: 0
 --- !u!23 &3574042396247391650
 MeshRenderer:
@@ -16300,8 +16398,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2364074245972760296}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.000001102682, y: -0.70748955, z: -0.0000013113048, w: -0.7067238}
-  m_LocalPosition: {x: 78.42, y: 8.11, z: 920.73}
+  m_LocalRotation: {x: 0.0000010791309, y: -0.7199755, z: -0.0000013307529, w: -0.6939996}
+  m_LocalPosition: {x: 78.42, y: 8.11, z: 919.94}
   m_LocalScale: {x: 1.8996837, y: 1.8996834, z: 1.8996837}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -16313,7 +16411,7 @@ Transform:
   - {fileID: 6656766104449806099}
   - {fileID: 2205257845729100481}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: -269.938, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -267.895, z: 0}
 --- !u!23 &4635294049825193797
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -16586,6 +16684,25 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &4873567240731609637
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2364074245972760296}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae8aa57b52b5b21478eea13e87cfb922, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waypoints:
+  - {fileID: 2101867569}
+  maxSpeed: 10
+  rotationSpeed: 3
+  slowDownDistance: 5
+  speedNeedle: {fileID: 8212242173915216633}
+  needleMultiplier: 5
 --- !u!4 &4902363246578132102
 Transform:
   m_ObjectHideFlags: 0
@@ -20607,7 +20724,7 @@ GameObject:
   - component: {fileID: 3680975319446431120}
   - component: {fileID: 4635294049825193797}
   m_Layer: 0
-  m_Name: B_SpeedoNeedle
+  m_Name: SpeedNeedle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20873,6 +20990,7 @@ Transform:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
+  - {fileID: 2072474985}
   - {fileID: 410087041}
   - {fileID: 314119923}
   - {fileID: 1029984782}
@@ -20883,3 +21001,4 @@ SceneRoots:
   - {fileID: 937711073}
   - {fileID: 433752475}
   - {fileID: 1134690802}
+  - {fileID: 2101867569}

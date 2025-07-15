@@ -14,6 +14,7 @@ public class DriveCar : MonoBehaviour
     public GameObject ExitPoint;
     public Camera _Camera;
     public bool Incar;
+    public bool DriveCarPermission;
 
     //public Animator SittingCar;
 
@@ -27,6 +28,8 @@ public class DriveCar : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        if (!this.enabled) return;
+
         if (other.gameObject.tag == "Reach")
         {
             InReach = true;
@@ -36,6 +39,8 @@ public class DriveCar : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
+        if (!this.enabled) return;
+
         if (other.gameObject.tag == "Reach")
         {
             InReach = false;
@@ -49,34 +54,43 @@ public class DriveCar : MonoBehaviour
         {
             if (!Incar && InReach)
             {
-                Incar = true;
-                _Player.GetComponent<Player>().enabled = false;
-                _Player.GetComponent<CapsuleCollider>().enabled = false;
-                _Player.GetComponent<CharacterController>().enabled = false;
-                _Camera.fieldOfView = 70f;
-                _Car.GetComponent<CarController>().enabled = true;
-
-                _Player.transform.position = SittingPoint.transform.position;
-                _Player.transform.rotation = SittingPoint.transform.rotation;
-                _Player.transform.SetParent(SittingPoint.transform);
-                DriveText.SetActive(false);
+                EnterCar();
             }
             else if (Incar)
             {
-                Incar = false;
-                _Player.transform.SetParent(null);
-
-                _Player.transform.position = ExitPoint.transform.position;
-                Vector3 flatRotation = ExitPoint.transform.eulerAngles;
-                _Player.transform.rotation = Quaternion.Euler(0f, flatRotation.y, 0f);
-
-                _Player.GetComponent<Player>().enabled = true;
-                _Player.GetComponent<CapsuleCollider>().enabled = true;
-                _Player.GetComponent<CharacterController>().enabled = true;
-                _Camera.fieldOfView = 60f;
-                _Car.GetComponent<CarController>().enabled = false;
-
+                ExitCar();
             }
         }
+    }
+
+    public void EnterCar()
+    {
+        Incar = true;
+        _Player.GetComponent<Player>().enabled = false;
+        _Player.GetComponent<CapsuleCollider>().enabled = false;
+        _Player.GetComponent<CharacterController>().enabled = false;
+        _Camera.fieldOfView = 70f;
+        _Car.GetComponent<CarController>().enabled = true;
+
+        _Player.transform.position = SittingPoint.transform.position;
+        _Player.transform.rotation = SittingPoint.transform.rotation;
+        _Player.transform.SetParent(SittingPoint.transform);
+        DriveText.SetActive(false);
+    }
+
+    public void ExitCar()
+    {
+        Incar = false;
+        _Player.transform.SetParent(null);
+
+        _Player.transform.position = ExitPoint.transform.position;
+        Vector3 flatRotation = ExitPoint.transform.eulerAngles;
+        _Player.transform.rotation = Quaternion.Euler(0f, flatRotation.y, 0f);
+
+        _Player.GetComponent<Player>().enabled = true;
+        _Player.GetComponent<CapsuleCollider>().enabled = true;
+        _Player.GetComponent<CharacterController>().enabled = true;
+        _Camera.fieldOfView = 90f;
+        _Car.GetComponent<CarController>().enabled = false;
     }
 }
