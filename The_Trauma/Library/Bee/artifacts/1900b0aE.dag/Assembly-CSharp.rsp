@@ -389,6 +389,7 @@
 "Assets/Scripts/Player.cs"
 "Assets/Scripts/PlayerCarController.cs"
 "Assets/Scripts/Scene1Manager.cs"
+"Assets/Scripts/TimeManager.cs"
 "Assets/Terrain/Visual Design Cafe/Nature Renderer Demo/Scripts/CloneTerrain.cs"
 "Assets/Terrain/Visual Design Cafe/Nature Renderer Demo/Scripts/CompileShaders.cs"
 "Assets/Terrain/Visual Design Cafe/Nature Renderer Demo/Scripts/OpenWebsiteButton.cs"

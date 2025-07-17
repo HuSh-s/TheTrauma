@@ -9,7 +9,7 @@ public class Scene1Manager : MonoBehaviour
     public Camera _Camera;
     public GameObject SittingPoint;
     void Start()
-    {
+    {/*
         _Player.GetComponent<Player>().enabled = false;
         _Player.GetComponent<CapsuleCollider>().enabled = false;
         _Player.GetComponent<CharacterController>().enabled = false;
@@ -22,7 +22,7 @@ public class Scene1Manager : MonoBehaviour
 
         //Activate Script
         _Player.GetComponent<PlayerCarController>().enabled = true;
-        _Car.GetComponent<CarAutoDrive>().enabled = true;
+        _Car.GetComponent<CarAutoDrive>().enabled = true;*/
     }
 
     void Update()
