@@ -385,6 +385,7 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.59f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Scripts/CarAutoDrive.cs"
 "Assets/Scripts/CarController.cs"
+"Assets/Scripts/CassettePlay.cs"
 "Assets/Scripts/DriveCar.cs"
 "Assets/Scripts/Player.cs"
 "Assets/Scripts/PlayerCarController.cs"
