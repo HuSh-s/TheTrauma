@@ -387,6 +387,8 @@
 "Assets/Scripts/CarController.cs"
 "Assets/Scripts/CassettePlay.cs"
 "Assets/Scripts/DriveCar.cs"
+"Assets/Scripts/ExamineManager.cs"
+"Assets/Scripts/ExamineObject.cs"
 "Assets/Scripts/Player.cs"
 "Assets/Scripts/PlayerCarController.cs"
 "Assets/Scripts/Scene1Manager.cs"
