@@ -10,6 +10,16 @@ public class Scene1Manager : MonoBehaviour
     public GameObject SittingPoint;
     void Start()
     {
+        CharInCarActivate();
+    }
+
+    void Update()
+    {
+        
+    }
+
+    void CharInCarActivate()
+    {
         _Player.GetComponent<Player>().enabled = false;
         _Player.GetComponent<CapsuleCollider>().enabled = false;
         _Player.GetComponent<CharacterController>().enabled = false;
@@ -23,10 +33,5 @@ public class Scene1Manager : MonoBehaviour
         //Activate Script
         _Player.GetComponent<PlayerCarController>().enabled = true;
         _Car.GetComponent<CarAutoDrive>().enabled = true;
-    }
-
-    void Update()
-    {
-        
     }
 }
