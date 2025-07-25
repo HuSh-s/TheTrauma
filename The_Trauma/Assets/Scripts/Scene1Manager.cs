@@ -10,7 +10,7 @@ public class Scene1Manager : MonoBehaviour
     public GameObject SittingPoint;
     void Start()
     {
-        //CharInCarActivate();
+        CharInCarActivate();
     }
 
     void Update()
