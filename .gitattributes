@@ -6,3 +6,14 @@
 *.terrain filter=lfs diff=lfs merge=lfs -text
 *.tif filter=lfs diff=lfs merge=lfs -text
 *.asset filter=lfs diff=lfs merge=lfs -text
+The_Trauma/Library/Artifacts filter=lfs diff=lfs merge=lfs -text
+The_Trauma/Library/Artifacts/0e064e85180791b22cba695e1c43fc1a filter=lfs diff=lfs merge=lfs -text
+The_Trauma/Library/Artifacts/1282625477807b10f514b526624c966c filter=lfs diff=lfs merge=lfs -text
+The_Trauma/Library/Artifacts/4c3bb3ac1c8fe8c838e5fc913f46be07 filter=lfs diff=lfs merge=lfs -text
+The_Trauma/Library/Artifacts/0e/0e064e85180791b22cba695e1c43fc1a filter=lfs diff=lfs merge=lfs -text
+The_Trauma/Library/Artifacts/12/1282625477807b10f514b526624c966c filter=lfs diff=lfs merge=lfs -text
+The_Trauma/Library/Artifacts/4c/4c3bb3ac1c8fe8c838e5fc913f46be07 filter=lfs diff=lfs merge=lfs -text
+The_Trauma/Library/Artifacts/a5/a57e24bd7556f2f6942a9d47f2cc588a filter=lfs diff=lfs merge=lfs -text
+The_Trauma/Library/Artifacts/d2/d23026c8a718507b7bda4f92659b840d filter=lfs diff=lfs merge=lfs -text
+The_Trauma/Library/Artifacts/e1/e1ebeec16916453ead5b5f89e34ccf13 filter=lfs diff=lfs merge=lfs -text
+The_Trauma/Library/Artifacts/f4/f485a51ff402cdd20c6276f2657cf3c9 filter=lfs diff=lfs merge=lfs -text

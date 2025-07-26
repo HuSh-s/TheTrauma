@@ -10,12 +10,13 @@ public class CarAutoDrive : MonoBehaviour
     public float slowDownDistance = 5f;
 
     [Header("Speed Needle")]
-    public Transform speedNeedle;
     public float needleMultiplier = 5f;
-
     private int currentIndex = 0;
     private float currentSpeed;
     private Vector3 lastPosition;
+
+
+    private Quaternion initialSteeringRotation;
     void Start()
     {
         currentSpeed = maxSpeed;
@@ -50,7 +51,7 @@ public class CarAutoDrive : MonoBehaviour
         transform.position = Vector3.MoveTowards(transform.position, waypoints[currentIndex].position, currentSpeed * Time.deltaTime);
 
         // Hedef noktaya ulaþtýysa sýradaki waypoint'e geç
-        if (distanceToTarget < 1f)
+        if (distanceToTarget < 17f)
         {
             currentIndex++;
         }
@@ -59,12 +60,5 @@ public class CarAutoDrive : MonoBehaviour
         float movedDistance = Vector3.Distance(transform.position, lastPosition);
         float speedPerSecond = movedDistance / Time.deltaTime;
         lastPosition = transform.position;
-
-        // Ýbre döndürme
-        if (speedNeedle != null)
-        {
-            float clampedSpeed = Mathf.Clamp(speedPerSecond * needleMultiplier, -180f, 0f); // max dönüþ -180 derece
-            speedNeedle.localRotation = Quaternion.Euler(0f, 0f, clampedSpeed);
-        }
     }
 }
