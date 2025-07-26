@@ -27796,7 +27796,7 @@ MonoBehaviour:
   - {fileID: 214815849}
   - {fileID: 1994297204}
   - {fileID: 179142552}
-  maxSpeed: 50
+  maxSpeed: 10
   rotationSpeed: 3
   slowDownDistance: 5
   needleMultiplier: 5
