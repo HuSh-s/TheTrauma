@@ -7,6 +7,7 @@ public class CarHeadLight : MonoBehaviour
     public GameObject[] FrontLights;
     public GameObject lightsText;
     public AudioSource switchClick;
+    public GameObject HeadLightSwitch;
 
     public bool lightsAreOn;
     public bool inReach;
@@ -50,6 +51,11 @@ public class CarHeadLight : MonoBehaviour
             {
                 item.SetActive(lightsAreOn);
             }
+
+            Vector3 currentRot = HeadLightSwitch.transform.localEulerAngles;
+            currentRot.z = lightsAreOn ? -35f : -15.915f;
+            HeadLightSwitch.transform.localEulerAngles = currentRot;
+
             switchClick.Play();
         }
     }
