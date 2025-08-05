@@ -17,6 +17,8 @@ public class Scene1Manager : MonoBehaviour
     //public GameObject UIElements;
 
     public AudioSource CarRainSound;
+    public AudioSource CarEngineSound;
+    public AudioSource WindSound;
 
 
     void Start()
@@ -24,6 +26,8 @@ public class Scene1Manager : MonoBehaviour
         PlayFadeIn();
         CharInCarActivate();
         CarRainSound.Play();
+        CarEngineSound.Play();
+        WindSound.Play();
     }
 
     void Update()
