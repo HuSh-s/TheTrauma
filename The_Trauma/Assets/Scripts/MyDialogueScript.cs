@@ -5,6 +5,8 @@ using UnityEngine;
 public class MyDialogueScript : MonoBehaviour
 {
     public DialogueManager dialogueManager;
+    public FocusEffect _FocusEffect;
+    public CarInnerLight _CarInnerLight;
 
     public AudioClip dia1_sound;
     public AudioClip dia2_sound;
@@ -31,6 +33,8 @@ public class MyDialogueScript : MonoBehaviour
     public void diaLine2()
     {
         dialogueManager.PlayDialogue(dia2_sound, "Takin’ the long road, Mike… You still don’t know where we’re going, do you?", dia2_sound.length);
+        _FocusEffect.FocusObject(dia2_sound.length);
+        _CarInnerLight.TurnInnerLight();
     }
 
     public void diaLine3()

@@ -20532,6 +20532,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueManager: {fileID: 1874248222}
+  _FocusEffect: {fileID: 1874248224}
+  _CarInnerLight: {fileID: 56252409}
   dia1_sound: {fileID: 8300000, guid: 35404ac74a522074c97530c3a804663c, type: 3}
   dia2_sound: {fileID: 8300000, guid: 6b8c803075e2bd84282dcee12c183549, type: 3}
   dia3_sound: {fileID: 8300000, guid: 1af79751343506740bb6f2b2cbc34e23, type: 3}
@@ -27235,6 +27237,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueManager: {fileID: 684597818}
+  _FocusEffect: {fileID: 0}
+  _CarInnerLight: {fileID: 0}
   dia1_sound: {fileID: 8300000, guid: 35404ac74a522074c97530c3a804663c, type: 3}
   dia2_sound: {fileID: 8300000, guid: 6b8c803075e2bd84282dcee12c183549, type: 3}
   dia3_sound: {fileID: 8300000, guid: 1af79751343506740bb6f2b2cbc34e23, type: 3}
@@ -61441,8 +61445,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1874248220}
-  - component: {fileID: 1874248222}
   - component: {fileID: 1874248223}
+  - component: {fileID: 1874248222}
+  - component: {fileID: 1874248224}
   m_Layer: 0
   m_Name: Subtitlemanager
   m_TagString: Untagged
@@ -61575,6 +61580,22 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1874248224
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1874248219}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 394d0a3b6fe7e0545a6a9d9bb7afc31b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetObject: {fileID: 2096493477}
+  _CamerMain: {fileID: 956863649}
+  horrorSound: {fileID: 1603584996}
+  _Player: {fileID: 698698435}
 --- !u!43 &1875772579
 Mesh:
   m_ObjectHideFlags: 0
@@ -65368,6 +65389,37 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2088575855}
   m_Mesh: {fileID: 1678934727}
+--- !u!1 &2096493476
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2096493477}
+  m_Layer: 0
+  m_Name: TifHead
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2096493477
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2096493476}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0.72374314, z: 0, w: 0.6900695}
+  m_LocalPosition: {x: 0.05860588, y: 0.35731518, z: -0.43785834}
+  m_LocalScale: {x: 0.6181926, y: 0.6181928, z: 0.6181926}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4599088406869182166}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2097330201
 GameObject:
   m_ObjectHideFlags: 0
@@ -85041,6 +85093,7 @@ Transform:
   - {fileID: 49047819}
   - {fileID: 3899959518880853420}
   - {fileID: 543450652854591027}
+  - {fileID: 2096493477}
   - {fileID: 1525907205}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 92.729, z: 0}

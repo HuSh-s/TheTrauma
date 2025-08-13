@@ -61,6 +61,20 @@ public class CarInnerLight : MonoBehaviour
         }
     }
 
+    public void TurnInnerLight()
+    {
+        lightsAreOn = !lightsAreOn;
+
+        foreach (var item in FrontLights)
+        {
+            item.SetActive(lightsAreOn);
+        }
+
+        SetLightModelMaterial();
+
+        switchClick.Play();
+    }
+
     void SetLightModelMaterial()
     {
         if (LightModel != null)
@@ -72,4 +86,6 @@ public class CarInnerLight : MonoBehaviour
             }
         }
     }
+
+    
 }
