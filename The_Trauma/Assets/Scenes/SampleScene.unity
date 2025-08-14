@@ -5498,7 +5498,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 25146519}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5adeda01a2142ec4f8ac6859ce1646a7, type: 3}
   m_Name: 
@@ -20534,13 +20534,17 @@ MonoBehaviour:
   dialogueManager: {fileID: 1874248222}
   _FocusEffect: {fileID: 1874248224}
   _CarInnerLight: {fileID: 56252409}
-  dia1_sound: {fileID: 8300000, guid: 35404ac74a522074c97530c3a804663c, type: 3}
-  dia2_sound: {fileID: 8300000, guid: 6b8c803075e2bd84282dcee12c183549, type: 3}
-  dia3_sound: {fileID: 8300000, guid: 1af79751343506740bb6f2b2cbc34e23, type: 3}
-  dia4_sound: {fileID: 8300000, guid: 34a7e0f809029954993ec809cc20cac3, type: 3}
-  dia5_sound: {fileID: 8300000, guid: a189bb1702a53d345a7cdcaf9c87cabc, type: 3}
-  dia6_sound: {fileID: 8300000, guid: eb95473261a43cc4c95b5a650181a911, type: 3}
-  dia7_sound: {fileID: 8300000, guid: 1435d27d3bee78e46a703e6cdd93ec16, type: 3}
+  _BreathScript: {fileID: 622959833}
+  _CassettePlay: {fileID: 4368315618190170226}
+  dia1_sound: {fileID: 8300000, guid: 7dae8cf82027a254baa3ddbe83f3b8f8, type: 3}
+  dia2_sound: {fileID: 8300000, guid: f4431e146d71b514dacb4e3633fa1115, type: 3}
+  dia3_sound: {fileID: 8300000, guid: 999557d89f292454a9697858878feea8, type: 3}
+  dia4_sound: {fileID: 8300000, guid: 843dcf12660876e47a4ea6025b45cc02, type: 3}
+  dia5_sound: {fileID: 8300000, guid: 98c64ceca795a8347918ed1e9ee1a076, type: 3}
+  dia6_sound: {fileID: 8300000, guid: b92c747ec8d1dfb4fac9c7378c5885f4, type: 3}
+  dia7_sound: {fileID: 8300000, guid: 6259531bf673bf34daa33caf5428f9f2, type: 3}
+  dia8_sound: {fileID: 8300000, guid: 6504ca6e336e6554295cdac8770d9392, type: 3}
+  hasPlayedDia7: 0
 --- !u!1 &464681586
 GameObject:
   m_ObjectHideFlags: 0
@@ -26035,7 +26039,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerCamera: {fileID: 956863649}
   lookSpeed: 2
-  maxYawAngle: 250
+  maxYawAngle: 290
   maxPitchAngle: 60
 --- !u!1 &707769687
 GameObject:
@@ -27239,6 +27243,8 @@ MonoBehaviour:
   dialogueManager: {fileID: 684597818}
   _FocusEffect: {fileID: 0}
   _CarInnerLight: {fileID: 0}
+  _BreathScript: {fileID: 0}
+  _CassettePlay: {fileID: 0}
   dia1_sound: {fileID: 8300000, guid: 35404ac74a522074c97530c3a804663c, type: 3}
   dia2_sound: {fileID: 8300000, guid: 6b8c803075e2bd84282dcee12c183549, type: 3}
   dia3_sound: {fileID: 8300000, guid: 1af79751343506740bb6f2b2cbc34e23, type: 3}
@@ -27246,6 +27252,8 @@ MonoBehaviour:
   dia5_sound: {fileID: 8300000, guid: a189bb1702a53d345a7cdcaf9c87cabc, type: 3}
   dia6_sound: {fileID: 8300000, guid: eb95473261a43cc4c95b5a650181a911, type: 3}
   dia7_sound: {fileID: 8300000, guid: 1435d27d3bee78e46a703e6cdd93ec16, type: 3}
+  dia8_sound: {fileID: 0}
+  hasPlayedDia7: 0
 --- !u!1 &759473655
 GameObject:
   m_ObjectHideFlags: 0
@@ -64983,7 +64991,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 1
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -68221,8 +68229,16 @@ MonoBehaviour:
   cassetteMusic: {fileID: 645979595}
   insertSound: {fileID: 1153309648}
   removeSound: {fileID: 1688851886}
+  dialogueScript: {fileID: 0}
+  triggerCollider: {fileID: 0}
   inReach: 0
   IsPlay: 0
+  interactionEnabled: 0
+  hasEverBeenInserted: 0
+  brokenTapeMode: 0
+  startOffsetSec: 15
+  playDurationSec: 15
+  ejectAnimDuration: 2
 --- !u!65 &919132147923692964
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -84665,8 +84681,16 @@ MonoBehaviour:
   cassetteMusic: {fileID: 645979595}
   insertSound: {fileID: 1153309648}
   removeSound: {fileID: 1688851886}
+  dialogueScript: {fileID: 460791781}
+  triggerCollider: {fileID: 4368315618190170224}
   inReach: 0
   IsPlay: 0
+  interactionEnabled: 0
+  hasEverBeenInserted: 0
+  brokenTapeMode: 0
+  startOffsetSec: 15
+  playDurationSec: 15
+  ejectAnimDuration: 2
 --- !u!95 &4368315618190170227
 Animator:
   serializedVersion: 5
@@ -84695,7 +84719,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4022997896008057557}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 77a588dbf6ff79f4db816aa7119927e6, type: 3}
   m_Name: 
@@ -85721,7 +85745,7 @@ MonoBehaviour:
   - {fileID: 1050101927}
   - {fileID: 1537737665}
   - {fileID: 1286871925}
-  brakePoints: 
+  brakePoints: 0f0000000e000000
   frontLeft: {fileID: 512083625243612161}
   frontRight: {fileID: 9126976749207523243}
   rearLeft: {fileID: 1284561195962431054}
