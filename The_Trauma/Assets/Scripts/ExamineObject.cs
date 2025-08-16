@@ -14,7 +14,7 @@ public class ExamineObject : MonoBehaviour
         if (other.gameObject.CompareTag("Reach"))
         {
             InReach = true;
-            ExamineText.SetActive(true);
+            ExamineText.SetActive(false);
         }
     }
 
