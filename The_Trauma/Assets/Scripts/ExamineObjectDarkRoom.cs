@@ -1,9 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 
-public class ExamineObject : MonoBehaviour
+public class ExamineObjectDarkRoom : MonoBehaviour
 {
     public GameObject ExamineText;
     public GameObject ExaminableObj;
@@ -28,14 +27,14 @@ public class ExamineObject : MonoBehaviour
     }
     void Start()
     {
-        
+
     }
 
     void Update()
     {
         if (InReach && Input.GetKeyDown(KeyCode.E))
         {
-            ExamineManager.Instance.ShowObject(ExaminableObj);
+            ExamineManagerDarkRoom.Instance.ShowObject(ExaminableObj);
         }
     }
 }
