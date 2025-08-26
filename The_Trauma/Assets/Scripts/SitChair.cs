@@ -10,6 +10,8 @@ public class SitChair : MonoBehaviour
     public GameObject ExitPoint;
     public Camera _Camera;
     public ExamineObjectDarkRoom _ExamineObjectDarkRoom;
+    public QuestionSystem _QuestionSystem;
+
 
     public bool InReach;
     public bool IsSitting;
@@ -58,10 +60,12 @@ public class SitChair : MonoBehaviour
             if (!IsSitting && InReach)
             {
                 SitDown();
+                _QuestionSystem.InReach = false;
             }
             else if (IsSitting)
             {
                 StandUp();
+                _QuestionSystem.InReach = true;
             }
         }
 
