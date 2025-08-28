@@ -60,12 +60,10 @@ public class SitChair : MonoBehaviour
             if (!IsSitting && InReach)
             {
                 SitDown();
-                _QuestionSystem.InReach = false;
             }
             else if (IsSitting)
             {
                 StandUp();
-                _QuestionSystem.InReach = true;
             }
         }
 
@@ -123,6 +121,9 @@ public class SitChair : MonoBehaviour
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
         InReach = false;
+
+        _QuestionSystem.InReach = false;
+        _QuestionSystem.ClearCurrentButton();
     }
 
     private void HandleLook()

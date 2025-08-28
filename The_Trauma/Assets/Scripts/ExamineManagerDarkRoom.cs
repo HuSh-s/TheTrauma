@@ -8,6 +8,7 @@ public class ExamineManagerDarkRoom : MonoBehaviour
     public Transform examinePoint;
     private GameObject currentObject;
     private GameObject wrapperObject;
+    public GameObject canvasbackground;
 
     public Player _Player;
     public GameObject _UI;
@@ -37,7 +38,11 @@ public class ExamineManagerDarkRoom : MonoBehaviour
             examinePoint.Rotate(Vector3.right, rotY, Space.Self);
 
             if (Input.GetKeyDown(KeyCode.Escape) || Input.GetMouseButtonDown(1))
+            {
+                canvasbackground.SetActive(false);
                 ExitExamine();
+            }
+                
         }
     }
 

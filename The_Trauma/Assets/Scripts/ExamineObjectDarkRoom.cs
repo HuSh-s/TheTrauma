@@ -6,6 +6,7 @@ public class ExamineObjectDarkRoom : MonoBehaviour
 {
     public GameObject ExamineText;
     public GameObject ExaminableObj;
+    public GameObject Canvas;
 
     public bool InReach;
     void OnTriggerEnter(Collider other)
@@ -35,6 +36,7 @@ public class ExamineObjectDarkRoom : MonoBehaviour
         if (InReach && Input.GetKeyDown(KeyCode.E))
         {
             ExamineManagerDarkRoom.Instance.ShowObject(ExaminableObj);
+            Canvas.SetActive(true);
         }
     }
 }

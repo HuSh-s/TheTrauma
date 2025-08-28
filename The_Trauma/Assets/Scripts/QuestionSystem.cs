@@ -10,13 +10,14 @@ public class QuestionSystem : MonoBehaviour
     public GameObject noText;      
     public AudioSource yesSound;
     public AudioSource noSound;
+    public SitChair _SitChair;
 
     public bool InReach;
     private Collider currentButton;   // hangi butonla çarpýþýyoruz
 
     void Update()
     {
-        if (InReach && Input.GetKeyDown(KeyCode.Q))
+        if (_SitChair.IsSitting && InReach && Input.GetKeyDown(KeyCode.Q))
         {
             if (currentButton.CompareTag("Yes"))
             {
@@ -31,13 +32,13 @@ public class QuestionSystem : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Yes"))
+        if (_SitChair.IsSitting && other.CompareTag("Yes"))
         {
             currentButton = other;
             yesText.SetActive(true);
             InReach = true;
         }
-        else if (other.CompareTag("No"))
+        else if (_SitChair.IsSitting && other.CompareTag("No"))
         {
             currentButton = other;
             noText.SetActive(true);
@@ -58,5 +59,11 @@ public class QuestionSystem : MonoBehaviour
             noText.SetActive(false);
             InReach = false;
         }
+    }
+    public void ClearCurrentButton()
+    {
+        currentButton = null;
+        yesText.SetActive(false);
+        noText.SetActive(false);
     }
 }
