@@ -211,7 +211,7 @@ Material:
     - _Raymarch_Steps: 128
     - _ReceiveShadows: 1
     - _Remap_Max: 0.9
-    - _Remap_Min: 0.15
+    - _Remap_Min: 0.2
     - _SIMPLEX_NOISE_ENABLED: 1
     - _SOFT_SHADOWS: 1
     - _Scale: 1.8
