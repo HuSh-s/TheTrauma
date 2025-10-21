@@ -23,7 +23,7 @@ Material:
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
-  m_LockedProperties: 
+  m_LockedProperties: _Raymarch_Steps
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -202,7 +202,7 @@ Material:
     - _Raymarch_Depth_Fade: 0
     - _Raymarch_Depth_Fade_Power: 2
     - _Raymarch_Distance: 14
-    - _Raymarch_Distance_Bias: 1
+    - _Raymarch_Distance_Bias: 0
     - _Raymarch_Height_Falloff: 0.456
     - _Raymarch_Height_Offset: 0
     - _Raymarch_Max_Depth: 0
@@ -211,7 +211,7 @@ Material:
     - _Raymarch_Steps: 128
     - _ReceiveShadows: 1
     - _Remap_Max: 0.9
-    - _Remap_Min: 0
+    - _Remap_Min: 0.15
     - _SIMPLEX_NOISE_ENABLED: 1
     - _SOFT_SHADOWS: 1
     - _Scale: 1.8
