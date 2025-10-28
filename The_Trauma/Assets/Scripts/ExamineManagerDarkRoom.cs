@@ -42,7 +42,6 @@ public class ExamineManagerDarkRoom : MonoBehaviour
                 canvasbackground.SetActive(false);
                 ExitExamine();
             }
-                
         }
     }
 
