@@ -368,6 +368,7 @@ GameObject:
   - component: {fileID: 7748930}
   - component: {fileID: 7748932}
   - component: {fileID: 7748931}
+  - component: {fileID: 7748933}
   m_Layer: 0
   m_Name: ClassRoom_StTablev2 (15)
   m_TagString: Untagged
@@ -442,6 +443,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7748929}
   m_Mesh: {fileID: -7404208947582266217, guid: e2f9e74f6514d5e4ab69cf6e6820b070, type: 3}
+--- !u!65 &7748933
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7748929}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.2885622, y: 0.7132286, z: 0.6382127}
+  m_Center: {x: 0.0000009536743, y: 0.35679796, z: 0.019106267}
 --- !u!1 &20448730
 GameObject:
   m_ObjectHideFlags: 0
@@ -453,6 +475,7 @@ GameObject:
   - component: {fileID: 20448731}
   - component: {fileID: 20448733}
   - component: {fileID: 20448732}
+  - component: {fileID: 20448734}
   m_Layer: 0
   m_Name: ClassRoom_StChairV2 (1)
   m_TagString: Untagged
@@ -525,6 +548,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 20448730}
   m_Mesh: {fileID: 1460180513498859384, guid: d48548b58d6b59f42bde5cb26027156d, type: 3}
+--- !u!65 &20448734
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 20448730}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.4400001, y: 0.031827994, z: 0.41361645}
+  m_Center: {x: 0, y: 0.40765053, z: -0.005578358}
 --- !u!1 &31980130
 GameObject:
   m_ObjectHideFlags: 0
@@ -569,6 +613,7 @@ GameObject:
   - component: {fileID: 32975586}
   - component: {fileID: 32975588}
   - component: {fileID: 32975587}
+  - component: {fileID: 32975589}
   m_Layer: 0
   m_Name: Radiator (1)
   m_TagString: Untagged
@@ -641,6 +686,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 32975585}
   m_Mesh: {fileID: -7196802604745430461, guid: a693c6fbe7b57ff43ae3517a0f5ad0b7, type: 3}
+--- !u!65 &32975589
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 32975585}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.4804612, y: 0.8961646, z: 0.14000021}
+  m_Center: {x: -0.00000002980232, y: 0.4479176, z: -0.00000009313225}
 --- !u!1 &42555922
 GameObject:
   m_ObjectHideFlags: 0
@@ -1360,6 +1426,7 @@ GameObject:
   - component: {fileID: 143409972}
   - component: {fileID: 143409974}
   - component: {fileID: 143409973}
+  - component: {fileID: 143409975}
   m_Layer: 0
   m_Name: ClassRoom_StChairV2 (1)
   m_TagString: Untagged
@@ -1432,6 +1499,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 143409971}
   m_Mesh: {fileID: 1460180513498859384, guid: d48548b58d6b59f42bde5cb26027156d, type: 3}
+--- !u!65 &143409975
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 143409971}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.4400001, y: 0.031827994, z: 0.41361645}
+  m_Center: {x: 0, y: 0.40765053, z: -0.005578358}
 --- !u!1 &154922982
 GameObject:
   m_ObjectHideFlags: 0
@@ -1577,6 +1665,7 @@ GameObject:
   - component: {fileID: 162966732}
   - component: {fileID: 162966734}
   - component: {fileID: 162966733}
+  - component: {fileID: 162966735}
   m_Layer: 0
   m_Name: ClassRoom_StChairV2
   m_TagString: Untagged
@@ -1649,6 +1738,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 162966731}
   m_Mesh: {fileID: 1460180513498859384, guid: d48548b58d6b59f42bde5cb26027156d, type: 3}
+--- !u!65 &162966735
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 162966731}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.4400001, y: 0.031827994, z: 0.41361645}
+  m_Center: {x: 0, y: 0.40765053, z: -0.005578358}
 --- !u!1 &164184225
 GameObject:
   m_ObjectHideFlags: 0
@@ -1815,6 +1925,7 @@ GameObject:
   - component: {fileID: 169907164}
   - component: {fileID: 169907166}
   - component: {fileID: 169907165}
+  - component: {fileID: 169907167}
   m_Layer: 0
   m_Name: ClassRoom_StChairV2 (1)
   m_TagString: Untagged
@@ -1887,6 +1998,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 169907163}
   m_Mesh: {fileID: 1460180513498859384, guid: d48548b58d6b59f42bde5cb26027156d, type: 3}
+--- !u!65 &169907167
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 169907163}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.4400001, y: 0.031827994, z: 0.41361645}
+  m_Center: {x: 0, y: 0.40765053, z: -0.005578358}
 --- !u!1 &178891744
 GameObject:
   m_ObjectHideFlags: 0
@@ -2188,6 +2320,7 @@ GameObject:
   - component: {fileID: 201044924}
   - component: {fileID: 201044926}
   - component: {fileID: 201044925}
+  - component: {fileID: 201044927}
   m_Layer: 0
   m_Name: ClassRoom_StChairV2
   m_TagString: Untagged
@@ -2260,6 +2393,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 201044923}
   m_Mesh: {fileID: 1460180513498859384, guid: d48548b58d6b59f42bde5cb26027156d, type: 3}
+--- !u!65 &201044927
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 201044923}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.4400001, y: 0.031827994, z: 0.41361645}
+  m_Center: {x: 0, y: 0.40765053, z: -0.005578358}
 --- !u!1 &202333584
 GameObject:
   m_ObjectHideFlags: 0
@@ -2271,6 +2425,7 @@ GameObject:
   - component: {fileID: 202333585}
   - component: {fileID: 202333587}
   - component: {fileID: 202333586}
+  - component: {fileID: 202333588}
   m_Layer: 0
   m_Name: ClassRoom_StTablev2 (4)
   m_TagString: Untagged
@@ -2345,6 +2500,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 202333584}
   m_Mesh: {fileID: -7404208947582266217, guid: e2f9e74f6514d5e4ab69cf6e6820b070, type: 3}
+--- !u!65 &202333588
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 202333584}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.2885622, y: 0.7132286, z: 0.6382127}
+  m_Center: {x: 0.00000023841858, y: 0.35679796, z: 0.01910591}
 --- !u!1 &207094391
 GameObject:
   m_ObjectHideFlags: 0
@@ -2424,6 +2600,7 @@ GameObject:
   - component: {fileID: 213367441}
   - component: {fileID: 213367443}
   - component: {fileID: 213367442}
+  - component: {fileID: 213367444}
   m_Layer: 0
   m_Name: Radiator (2)
   m_TagString: Untagged
@@ -2496,6 +2673,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 213367440}
   m_Mesh: {fileID: -7196802604745430461, guid: a693c6fbe7b57ff43ae3517a0f5ad0b7, type: 3}
+--- !u!65 &213367444
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 213367440}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.4804612, y: 0.8961646, z: 0.14000021}
+  m_Center: {x: -0.000000074505806, y: 0.4479176, z: -0.00000009313225}
 --- !u!1 &232799061
 GameObject:
   m_ObjectHideFlags: 0
@@ -2507,6 +2705,7 @@ GameObject:
   - component: {fileID: 232799062}
   - component: {fileID: 232799064}
   - component: {fileID: 232799063}
+  - component: {fileID: 232799065}
   m_Layer: 0
   m_Name: ClassRoom_StTablev2 (2)
   m_TagString: Untagged
@@ -2581,6 +2780,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 232799061}
   m_Mesh: {fileID: -7404208947582266217, guid: e2f9e74f6514d5e4ab69cf6e6820b070, type: 3}
+--- !u!65 &232799065
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 232799061}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.2885622, y: 0.7132286, z: 0.6382127}
+  m_Center: {x: 0.00000023841858, y: 0.35679796, z: 0.01910591}
 --- !u!1 &235071134
 GameObject:
   m_ObjectHideFlags: 0
@@ -3323,7 +3543,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &334041842
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3417,12 +3637,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 334041841}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.85, y: 5.088, z: -1.5}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -7.924808, y: 4.964571, z: 1.6761011}
+  m_LocalScale: {x: 0.57142854, y: 0.57142854, z: 0.57142854}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1800080126}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &335615673
 GameObject:
@@ -3435,6 +3655,7 @@ GameObject:
   - component: {fileID: 335615674}
   - component: {fileID: 335615676}
   - component: {fileID: 335615675}
+  - component: {fileID: 335615677}
   m_Layer: 0
   m_Name: ClassRoom_StChairV2
   m_TagString: Untagged
@@ -3507,6 +3728,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 335615673}
   m_Mesh: {fileID: 1460180513498859384, guid: d48548b58d6b59f42bde5cb26027156d, type: 3}
+--- !u!65 &335615677
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 335615673}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.4400001, y: 0.031827994, z: 0.41361645}
+  m_Center: {x: 0, y: 0.40765053, z: -0.005578358}
 --- !u!1 &347451190
 GameObject:
   m_ObjectHideFlags: 0
@@ -3976,6 +4218,7 @@ GameObject:
   - component: {fileID: 400973940}
   - component: {fileID: 400973942}
   - component: {fileID: 400973941}
+  - component: {fileID: 400973943}
   m_Layer: 0
   m_Name: ClassRoom_StChairV2
   m_TagString: Untagged
@@ -4048,6 +4291,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 400973939}
   m_Mesh: {fileID: 1460180513498859384, guid: d48548b58d6b59f42bde5cb26027156d, type: 3}
+--- !u!65 &400973943
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 400973939}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.4400001, y: 0.031827994, z: 0.41361645}
+  m_Center: {x: 0, y: 0.40765053, z: -0.005578358}
 --- !u!1 &403471177
 GameObject:
   m_ObjectHideFlags: 0
@@ -5477,12 +5741,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 588557364}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.8, y: 3.2, z: 3.22}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 15.998902, y: 4.23202, z: -3.9590747}
   m_LocalScale: {x: 17.74626, y: 4.8749, z: 20.25334}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 773833534}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &610728339
 GameObject:
@@ -5495,6 +5759,7 @@ GameObject:
   - component: {fileID: 610728340}
   - component: {fileID: 610728342}
   - component: {fileID: 610728341}
+  - component: {fileID: 610728343}
   m_Layer: 0
   m_Name: ClassRoom_StChairV2
   m_TagString: Untagged
@@ -5567,6 +5832,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 610728339}
   m_Mesh: {fileID: 1460180513498859384, guid: d48548b58d6b59f42bde5cb26027156d, type: 3}
+--- !u!65 &610728343
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 610728339}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.4400001, y: 0.031827994, z: 0.41361645}
+  m_Center: {x: 0, y: 0.40765053, z: -0.005578358}
 --- !u!1 &622959828
 GameObject:
   m_ObjectHideFlags: 0
@@ -5960,6 +6246,7 @@ GameObject:
   - component: {fileID: 663788577}
   - component: {fileID: 663788579}
   - component: {fileID: 663788578}
+  - component: {fileID: 663788580}
   m_Layer: 0
   m_Name: ClassRoom_StTablev2 (8)
   m_TagString: Untagged
@@ -6034,6 +6321,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 663788576}
   m_Mesh: {fileID: -7404208947582266217, guid: e2f9e74f6514d5e4ab69cf6e6820b070, type: 3}
+--- !u!65 &663788580
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 663788576}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.2885622, y: 0.7132286, z: 0.6382127}
+  m_Center: {x: 0.00000017881393, y: 0.35679796, z: 0.019106148}
 --- !u!1 &664966310
 GameObject:
   m_ObjectHideFlags: 0
@@ -6045,6 +6353,7 @@ GameObject:
   - component: {fileID: 664966311}
   - component: {fileID: 664966313}
   - component: {fileID: 664966312}
+  - component: {fileID: 664966314}
   m_Layer: 0
   m_Name: ClassRoom_StChairV2 (1)
   m_TagString: Untagged
@@ -6117,6 +6426,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 664966310}
   m_Mesh: {fileID: 1460180513498859384, guid: d48548b58d6b59f42bde5cb26027156d, type: 3}
+--- !u!65 &664966314
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 664966310}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.4400001, y: 0.031827994, z: 0.41361645}
+  m_Center: {x: 0, y: 0.40765053, z: -0.005578358}
 --- !u!1 &698698435
 GameObject:
   m_ObjectHideFlags: 0
@@ -6543,6 +6873,7 @@ GameObject:
   - component: {fileID: 738846211}
   - component: {fileID: 738846213}
   - component: {fileID: 738846212}
+  - component: {fileID: 738846214}
   m_Layer: 0
   m_Name: ClassRoom_StChairV2
   m_TagString: Untagged
@@ -6615,6 +6946,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 738846210}
   m_Mesh: {fileID: 1460180513498859384, guid: d48548b58d6b59f42bde5cb26027156d, type: 3}
+--- !u!65 &738846214
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 738846210}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.4400001, y: 0.031827994, z: 0.41361645}
+  m_Center: {x: 0, y: 0.40765053, z: -0.005578358}
 --- !u!1 &744746605
 GameObject:
   m_ObjectHideFlags: 0
@@ -6626,6 +6978,7 @@ GameObject:
   - component: {fileID: 744746606}
   - component: {fileID: 744746608}
   - component: {fileID: 744746607}
+  - component: {fileID: 744746609}
   m_Layer: 0
   m_Name: ClassRoom_StChairV2 (1)
   m_TagString: Untagged
@@ -6698,6 +7051,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 744746605}
   m_Mesh: {fileID: 1460180513498859384, guid: d48548b58d6b59f42bde5cb26027156d, type: 3}
+--- !u!65 &744746609
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 744746605}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.4400001, y: 0.031827994, z: 0.41361645}
+  m_Center: {x: 0, y: 0.40765053, z: -0.005578358}
 --- !u!1 &750171778
 GameObject:
   m_ObjectHideFlags: 0
@@ -7003,6 +7377,7 @@ GameObject:
   - component: {fileID: 762814583}
   - component: {fileID: 762814585}
   - component: {fileID: 762814584}
+  - component: {fileID: 762814586}
   m_Layer: 0
   m_Name: ClassRoom_StTablev2 (14)
   m_TagString: Untagged
@@ -7077,6 +7452,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 762814582}
   m_Mesh: {fileID: -7404208947582266217, guid: e2f9e74f6514d5e4ab69cf6e6820b070, type: 3}
+--- !u!65 &762814586
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 762814582}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.2885622, y: 0.7132286, z: 0.6382127}
+  m_Center: {x: 0.00000023841858, y: 0.35679796, z: 0.019106148}
 --- !u!1 &771729967
 GameObject:
   m_ObjectHideFlags: 0
@@ -7211,6 +7607,39 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 771729967}
   m_CullTransparentMesh: 1
+--- !u!1 &773833533
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 773833534}
+  m_Layer: 0
+  m_Name: Particles
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &773833534
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 773833533}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -14.181324, y: 1.467417, z: 6.635572}
+  m_LocalScale: {x: 0.57142854, y: 0.57142854, z: 0.57142854}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1952325352}
+  - {fileID: 588557368}
+  m_Father: {fileID: 1800080126}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &803531300
 GameObject:
   m_ObjectHideFlags: 0
@@ -8213,6 +8642,7 @@ GameObject:
   - component: {fileID: 993587489}
   - component: {fileID: 993587491}
   - component: {fileID: 993587490}
+  - component: {fileID: 993587492}
   m_Layer: 0
   m_Name: ClassRoom_StChairV2
   m_TagString: Untagged
@@ -8285,6 +8715,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 993587488}
   m_Mesh: {fileID: 1460180513498859384, guid: d48548b58d6b59f42bde5cb26027156d, type: 3}
+--- !u!65 &993587492
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 993587488}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.4400001, y: 0.031827994, z: 0.41361645}
+  m_Center: {x: 0, y: 0.40765053, z: -0.005578358}
 --- !u!1 &1041691139
 GameObject:
   m_ObjectHideFlags: 0
@@ -8956,6 +9407,7 @@ GameObject:
   - component: {fileID: 1150097747}
   - component: {fileID: 1150097749}
   - component: {fileID: 1150097748}
+  - component: {fileID: 1150097750}
   m_Layer: 0
   m_Name: ClassRoom_StTablev2 (10)
   m_TagString: Untagged
@@ -9030,6 +9482,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1150097746}
   m_Mesh: {fileID: -7404208947582266217, guid: e2f9e74f6514d5e4ab69cf6e6820b070, type: 3}
+--- !u!65 &1150097750
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1150097746}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.2885622, y: 0.7132286, z: 0.6382127}
+  m_Center: {x: 0.00000023841858, y: 0.35679796, z: 0.019105671}
 --- !u!1 &1150816588
 GameObject:
   m_ObjectHideFlags: 0
@@ -9041,6 +9514,7 @@ GameObject:
   - component: {fileID: 1150816589}
   - component: {fileID: 1150816591}
   - component: {fileID: 1150816590}
+  - component: {fileID: 1150816592}
   m_Layer: 0
   m_Name: ClassRoom_StChairV2 (1)
   m_TagString: Untagged
@@ -9113,6 +9587,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1150816588}
   m_Mesh: {fileID: 1460180513498859384, guid: d48548b58d6b59f42bde5cb26027156d, type: 3}
+--- !u!65 &1150816592
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1150816588}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.4400001, y: 0.031827994, z: 0.41361645}
+  m_Center: {x: 0, y: 0.40765053, z: -0.005578358}
 --- !u!1 &1153309646
 GameObject:
   m_ObjectHideFlags: 0
@@ -9463,6 +9958,7 @@ GameObject:
   - component: {fileID: 1176164597}
   - component: {fileID: 1176164599}
   - component: {fileID: 1176164598}
+  - component: {fileID: 1176164600}
   m_Layer: 0
   m_Name: ClassRoom_StTablev2 (13)
   m_TagString: Untagged
@@ -9537,6 +10033,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1176164596}
   m_Mesh: {fileID: -7404208947582266217, guid: e2f9e74f6514d5e4ab69cf6e6820b070, type: 3}
+--- !u!65 &1176164600
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1176164596}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.2885622, y: 0.7132286, z: 0.6382127}
+  m_Center: {x: 0.00000023841858, y: 0.35679796, z: 0.019106267}
 --- !u!1 &1180188826
 GameObject:
   m_ObjectHideFlags: 0
@@ -9994,6 +10511,7 @@ GameObject:
   - component: {fileID: 1236418515}
   - component: {fileID: 1236418517}
   - component: {fileID: 1236418516}
+  - component: {fileID: 1236418518}
   m_Layer: 0
   m_Name: ClassRoom_StChairV2
   m_TagString: Untagged
@@ -10066,6 +10584,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1236418514}
   m_Mesh: {fileID: 1460180513498859384, guid: d48548b58d6b59f42bde5cb26027156d, type: 3}
+--- !u!65 &1236418518
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1236418514}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.4400001, y: 0.031827994, z: 0.41361645}
+  m_Center: {x: 0, y: 0.40765053, z: -0.005578358}
 --- !u!1 &1241589123
 GameObject:
   m_ObjectHideFlags: 0
@@ -10160,6 +10699,7 @@ GameObject:
   - component: {fileID: 1244424690}
   - component: {fileID: 1244424692}
   - component: {fileID: 1244424691}
+  - component: {fileID: 1244424693}
   m_Layer: 0
   m_Name: ClassRoom_StChairV2 (1)
   m_TagString: Untagged
@@ -10232,6 +10772,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1244424689}
   m_Mesh: {fileID: 1460180513498859384, guid: d48548b58d6b59f42bde5cb26027156d, type: 3}
+--- !u!65 &1244424693
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1244424689}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.4400001, y: 0.031827994, z: 0.41361645}
+  m_Center: {x: 0, y: 0.40765053, z: -0.005578358}
 --- !u!1 &1253572099
 GameObject:
   m_ObjectHideFlags: 0
@@ -10326,6 +10887,7 @@ GameObject:
   - component: {fileID: 1261552860}
   - component: {fileID: 1261552862}
   - component: {fileID: 1261552861}
+  - component: {fileID: 1261552863}
   m_Layer: 0
   m_Name: ClassRoom_StTablev2 (7)
   m_TagString: Untagged
@@ -10400,6 +10962,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1261552859}
   m_Mesh: {fileID: -7404208947582266217, guid: e2f9e74f6514d5e4ab69cf6e6820b070, type: 3}
+--- !u!65 &1261552863
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1261552859}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.2885622, y: 0.7132286, z: 0.6382127}
+  m_Center: {x: 0.0000009536743, y: 0.35679796, z: 0.01910591}
 --- !u!1 &1286995700
 GameObject:
   m_ObjectHideFlags: 0
@@ -10645,6 +11228,7 @@ GameObject:
   - component: {fileID: 1310305977}
   - component: {fileID: 1310305979}
   - component: {fileID: 1310305978}
+  - component: {fileID: 1310305980}
   m_Layer: 0
   m_Name: ClassRoom_StChairV2 (1)
   m_TagString: Untagged
@@ -10717,6 +11301,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1310305976}
   m_Mesh: {fileID: 1460180513498859384, guid: d48548b58d6b59f42bde5cb26027156d, type: 3}
+--- !u!65 &1310305980
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1310305976}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.4400001, y: 0.031827994, z: 0.41361645}
+  m_Center: {x: 0, y: 0.40765053, z: -0.005578358}
 --- !u!1 &1322363762
 GameObject:
   m_ObjectHideFlags: 0
@@ -10762,6 +11367,7 @@ GameObject:
   - component: {fileID: 1332904435}
   - component: {fileID: 1332904437}
   - component: {fileID: 1332904436}
+  - component: {fileID: 1332904438}
   m_Layer: 0
   m_Name: ClassRoom_StTablev2 (3)
   m_TagString: Untagged
@@ -10836,6 +11442,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1332904434}
   m_Mesh: {fileID: -7404208947582266217, guid: e2f9e74f6514d5e4ab69cf6e6820b070, type: 3}
+--- !u!65 &1332904438
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1332904434}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.2885622, y: 0.7132286, z: 0.6382127}
+  m_Center: {x: 0.0000009536743, y: 0.35679796, z: 0.01910591}
 --- !u!1 &1350326523
 GameObject:
   m_ObjectHideFlags: 0
@@ -11115,6 +11742,7 @@ GameObject:
   - component: {fileID: 1370988766}
   - component: {fileID: 1370988768}
   - component: {fileID: 1370988767}
+  - component: {fileID: 1370988769}
   m_Layer: 0
   m_Name: ClassRoom_StTablev2 (1)
   m_TagString: Untagged
@@ -11189,6 +11817,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1370988765}
   m_Mesh: {fileID: -7404208947582266217, guid: e2f9e74f6514d5e4ab69cf6e6820b070, type: 3}
+--- !u!65 &1370988769
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1370988765}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.2885622, y: 0.7132286, z: 0.6382127}
+  m_Center: {x: 0.00000023841858, y: 0.35679796, z: 0.01910591}
 --- !u!1 &1413805720
 GameObject:
   m_ObjectHideFlags: 0
@@ -11305,6 +11954,7 @@ GameObject:
   - component: {fileID: 1424586150}
   - component: {fileID: 1424586152}
   - component: {fileID: 1424586151}
+  - component: {fileID: 1424586153}
   m_Layer: 0
   m_Name: ClassRoom_StChairV2 (1)
   m_TagString: Untagged
@@ -11377,6 +12027,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1424586149}
   m_Mesh: {fileID: 1460180513498859384, guid: d48548b58d6b59f42bde5cb26027156d, type: 3}
+--- !u!65 &1424586153
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1424586149}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.4400001, y: 0.031827994, z: 0.41361645}
+  m_Center: {x: 0, y: 0.40765053, z: -0.005578358}
 --- !u!1 &1435157487
 GameObject:
   m_ObjectHideFlags: 0
@@ -11388,6 +12059,7 @@ GameObject:
   - component: {fileID: 1435157488}
   - component: {fileID: 1435157490}
   - component: {fileID: 1435157489}
+  - component: {fileID: 1435157491}
   m_Layer: 0
   m_Name: ClassRoom_StChairV2 (1)
   m_TagString: Untagged
@@ -11460,6 +12132,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1435157487}
   m_Mesh: {fileID: 1460180513498859384, guid: d48548b58d6b59f42bde5cb26027156d, type: 3}
+--- !u!65 &1435157491
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1435157487}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.4400001, y: 0.031827994, z: 0.41361645}
+  m_Center: {x: 0, y: 0.40765053, z: -0.005578358}
 --- !u!1 &1479261646
 GameObject:
   m_ObjectHideFlags: 0
@@ -11471,6 +12164,7 @@ GameObject:
   - component: {fileID: 1479261647}
   - component: {fileID: 1479261649}
   - component: {fileID: 1479261648}
+  - component: {fileID: 1479261650}
   m_Layer: 0
   m_Name: ClassRoom_StTablev2 (5)
   m_TagString: Untagged
@@ -11545,6 +12239,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1479261646}
   m_Mesh: {fileID: -7404208947582266217, guid: e2f9e74f6514d5e4ab69cf6e6820b070, type: 3}
+--- !u!65 &1479261650
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1479261646}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.2885622, y: 0.7132286, z: 0.6382127}
+  m_Center: {x: 0.00000017881393, y: 0.35679796, z: 0.01910591}
 --- !u!1 &1485092706
 GameObject:
   m_ObjectHideFlags: 0
@@ -11639,6 +12354,7 @@ GameObject:
   - component: {fileID: 1522490136}
   - component: {fileID: 1522490138}
   - component: {fileID: 1522490137}
+  - component: {fileID: 1522490139}
   m_Layer: 0
   m_Name: ClassRoom_StChairV2
   m_TagString: Untagged
@@ -11711,6 +12427,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1522490135}
   m_Mesh: {fileID: 1460180513498859384, guid: d48548b58d6b59f42bde5cb26027156d, type: 3}
+--- !u!65 &1522490139
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1522490135}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.4400001, y: 0.031827994, z: 0.41361645}
+  m_Center: {x: 0, y: 0.40765053, z: -0.005578358}
 --- !u!1 &1551472393
 GameObject:
   m_ObjectHideFlags: 0
@@ -11840,6 +12577,7 @@ GameObject:
   - component: {fileID: 1553192875}
   - component: {fileID: 1553192877}
   - component: {fileID: 1553192876}
+  - component: {fileID: 1553192878}
   m_Layer: 0
   m_Name: ClassRoom_StChairV2 (1)
   m_TagString: Untagged
@@ -11912,6 +12650,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1553192874}
   m_Mesh: {fileID: 1460180513498859384, guid: d48548b58d6b59f42bde5cb26027156d, type: 3}
+--- !u!65 &1553192878
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1553192874}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.4400001, y: 0.031827994, z: 0.41361645}
+  m_Center: {x: 0, y: 0.40765053, z: -0.005578358}
 --- !u!1 &1556688813
 GameObject:
   m_ObjectHideFlags: 0
@@ -11923,6 +12682,7 @@ GameObject:
   - component: {fileID: 1556688814}
   - component: {fileID: 1556688816}
   - component: {fileID: 1556688815}
+  - component: {fileID: 1556688817}
   m_Layer: 0
   m_Name: ClassRoom_StChairV2 (1)
   m_TagString: Untagged
@@ -11995,6 +12755,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1556688813}
   m_Mesh: {fileID: 1460180513498859384, guid: d48548b58d6b59f42bde5cb26027156d, type: 3}
+--- !u!65 &1556688817
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1556688813}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.4400001, y: 0.031827994, z: 0.41361645}
+  m_Center: {x: 0, y: 0.40765053, z: -0.005578358}
 --- !u!1 &1557905985
 GameObject:
   m_ObjectHideFlags: 0
@@ -12352,6 +13133,7 @@ GameObject:
   - component: {fileID: 1569336281}
   - component: {fileID: 1569336283}
   - component: {fileID: 1569336282}
+  - component: {fileID: 1569336284}
   m_Layer: 0
   m_Name: ClassRoom_StTablev2 (6)
   m_TagString: Untagged
@@ -12426,6 +13208,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1569336280}
   m_Mesh: {fileID: -7404208947582266217, guid: e2f9e74f6514d5e4ab69cf6e6820b070, type: 3}
+--- !u!65 &1569336284
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569336280}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.2885622, y: 0.7132286, z: 0.6382127}
+  m_Center: {x: 0.00000023841858, y: 0.35679796, z: 0.019105433}
 --- !u!1 &1575138258
 GameObject:
   m_ObjectHideFlags: 0
@@ -13133,6 +13936,7 @@ GameObject:
   - component: {fileID: 1673035411}
   - component: {fileID: 1673035413}
   - component: {fileID: 1673035412}
+  - component: {fileID: 1673035414}
   m_Layer: 0
   m_Name: ClassRoom_StTablev2 (9)
   m_TagString: Untagged
@@ -13207,6 +14011,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1673035410}
   m_Mesh: {fileID: -7404208947582266217, guid: e2f9e74f6514d5e4ab69cf6e6820b070, type: 3}
+--- !u!65 &1673035414
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1673035410}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.2885622, y: 0.7132286, z: 0.6382127}
+  m_Center: {x: 0.00000023841858, y: 0.35679796, z: 0.019106148}
 --- !u!1 &1688851884
 GameObject:
   m_ObjectHideFlags: 0
@@ -13346,6 +14171,7 @@ GameObject:
   - component: {fileID: 1691465277}
   - component: {fileID: 1691465279}
   - component: {fileID: 1691465278}
+  - component: {fileID: 1691465280}
   m_Layer: 0
   m_Name: ClassRoom_StTablev2 (12)
   m_TagString: Untagged
@@ -13420,6 +14246,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1691465276}
   m_Mesh: {fileID: -7404208947582266217, guid: e2f9e74f6514d5e4ab69cf6e6820b070, type: 3}
+--- !u!65 &1691465280
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1691465276}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.2885622, y: 0.7132286, z: 0.6382127}
+  m_Center: {x: 0.00000017881393, y: 0.35679796, z: 0.019106267}
 --- !u!1 &1726515338
 GameObject:
   m_ObjectHideFlags: 0
@@ -13622,7 +14469,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1742268896
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13716,12 +14563,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1742268895}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.27, y: 5.088, z: 7.937468}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -8.164808, y: 4.964571, z: 7.0689397}
+  m_LocalScale: {x: 0.57142854, y: 0.57142854, z: 0.57142854}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1800080126}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1752654981
 GameObject:
@@ -13952,6 +14799,7 @@ GameObject:
   - component: {fileID: 1789463468}
   - component: {fileID: 1789463470}
   - component: {fileID: 1789463469}
+  - component: {fileID: 1789463471}
   m_Layer: 0
   m_Name: ClassRoom_StChairV2 (1)
   m_TagString: Untagged
@@ -14024,6 +14872,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1789463467}
   m_Mesh: {fileID: 1460180513498859384, guid: d48548b58d6b59f42bde5cb26027156d, type: 3}
+--- !u!65 &1789463471
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1789463467}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.4400001, y: 0.031827994, z: 0.41361645}
+  m_Center: {x: 0, y: 0.40765053, z: -0.005578358}
 --- !u!1 &1800080125
 GameObject:
   m_ObjectHideFlags: 0
@@ -14071,6 +14940,9 @@ Transform:
   - {fileID: 467011405}
   - {fileID: 1475581}
   - {fileID: 937385770}
+  - {fileID: 773833534}
+  - {fileID: 1742268898}
+  - {fileID: 334041844}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1805806627
@@ -14260,6 +15132,7 @@ GameObject:
   - component: {fileID: 1841197930}
   - component: {fileID: 1841197932}
   - component: {fileID: 1841197931}
+  - component: {fileID: 1841197933}
   m_Layer: 0
   m_Name: ClassRoom_StTablev2 (11)
   m_TagString: Untagged
@@ -14334,6 +15207,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1841197929}
   m_Mesh: {fileID: -7404208947582266217, guid: e2f9e74f6514d5e4ab69cf6e6820b070, type: 3}
+--- !u!65 &1841197933
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1841197929}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.2885622, y: 0.7132286, z: 0.6382127}
+  m_Center: {x: 0.0000009536743, y: 0.35679796, z: 0.019106148}
 --- !u!1 &1857747318
 GameObject:
   m_ObjectHideFlags: 0
@@ -14345,6 +15239,7 @@ GameObject:
   - component: {fileID: 1857747319}
   - component: {fileID: 1857747321}
   - component: {fileID: 1857747320}
+  - component: {fileID: 1857747322}
   m_Layer: 0
   m_Name: ClassRoom_StChairV2
   m_TagString: Untagged
@@ -14417,6 +15312,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1857747318}
   m_Mesh: {fileID: 1460180513498859384, guid: d48548b58d6b59f42bde5cb26027156d, type: 3}
+--- !u!65 &1857747322
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1857747318}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.4400001, y: 0.031827994, z: 0.41361645}
+  m_Center: {x: 0, y: 0.40765053, z: -0.005578358}
 --- !u!1 &1863479117
 GameObject:
   m_ObjectHideFlags: 0
@@ -14546,6 +15462,7 @@ GameObject:
   - component: {fileID: 1864336812}
   - component: {fileID: 1864336814}
   - component: {fileID: 1864336813}
+  - component: {fileID: 1864336815}
   m_Layer: 0
   m_Name: ClassRoom_StChairV2
   m_TagString: Untagged
@@ -14618,6 +15535,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1864336811}
   m_Mesh: {fileID: 1460180513498859384, guid: d48548b58d6b59f42bde5cb26027156d, type: 3}
+--- !u!65 &1864336815
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1864336811}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.4400001, y: 0.031827994, z: 0.41361645}
+  m_Center: {x: 0, y: 0.40765053, z: -0.005578358}
 --- !u!1 &1903180295
 GameObject:
   m_ObjectHideFlags: 0
@@ -14629,6 +15567,7 @@ GameObject:
   - component: {fileID: 1903180296}
   - component: {fileID: 1903180298}
   - component: {fileID: 1903180297}
+  - component: {fileID: 1903180299}
   m_Layer: 0
   m_Name: ClassRoom_StChairV2
   m_TagString: Untagged
@@ -14701,6 +15640,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1903180295}
   m_Mesh: {fileID: 1460180513498859384, guid: d48548b58d6b59f42bde5cb26027156d, type: 3}
+--- !u!65 &1903180299
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1903180295}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.4400001, y: 0.031827994, z: 0.41361645}
+  m_Center: {x: 0, y: 0.40765053, z: -0.005578358}
 --- !u!1 &1910632114
 GameObject:
   m_ObjectHideFlags: 0
@@ -14712,6 +15672,7 @@ GameObject:
   - component: {fileID: 1910632115}
   - component: {fileID: 1910632117}
   - component: {fileID: 1910632116}
+  - component: {fileID: 1910632118}
   m_Layer: 0
   m_Name: ClassRoom_StChairV2 (1)
   m_TagString: Untagged
@@ -14784,6 +15745,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1910632114}
   m_Mesh: {fileID: 1460180513498859384, guid: d48548b58d6b59f42bde5cb26027156d, type: 3}
+--- !u!65 &1910632118
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1910632114}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.4400001, y: 0.031827994, z: 0.41361645}
+  m_Center: {x: 0, y: 0.40765053, z: -0.005578358}
 --- !u!1 &1937098601
 GameObject:
   m_ObjectHideFlags: 0
@@ -14795,6 +15777,7 @@ GameObject:
   - component: {fileID: 1937098602}
   - component: {fileID: 1937098604}
   - component: {fileID: 1937098603}
+  - component: {fileID: 1937098605}
   m_Layer: 0
   m_Name: ClassRoom_StChairV2 (1)
   m_TagString: Untagged
@@ -14867,6 +15850,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1937098601}
   m_Mesh: {fileID: 1460180513498859384, guid: d48548b58d6b59f42bde5cb26027156d, type: 3}
+--- !u!65 &1937098605
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1937098601}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.4400001, y: 0.031827994, z: 0.41361645}
+  m_Center: {x: 0, y: 0.40765053, z: -0.005578358}
 --- !u!1 &1947158719
 GameObject:
   m_ObjectHideFlags: 0
@@ -15029,8 +16033,8 @@ ParticleSystemRenderer:
   m_AllowRoll: 1
   m_FreeformStretching: 0
   m_RotateWithStretchDirection: 1
-  m_UseCustomVertexStreams: 0
-  m_VertexStreams: 00010304
+  m_UseCustomVertexStreams: 1
+  m_VertexStreams: 000304
   m_UseCustomTrailVertexStreams: 0
   m_TrailVertexStreams: 00010304
   m_Mesh: {fileID: 0}
@@ -15051,7 +16055,7 @@ ParticleSystem:
   m_GameObject: {fileID: 1952325349}
   serializedVersion: 8
   lengthInSec: 0.05
-  simulationSpeed: 0.03
+  simulationSpeed: 0.08
   stopAction: 0
   cullingMode: 0
   ringBufferMode: 0
@@ -15296,8 +16300,8 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 3
-      scalar: 0.03
-      minScalar: 0.03
+      scalar: 0.05
+      minScalar: 0.02
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -15349,8 +16353,8 @@ ParticleSystem:
     startSizeY:
       serializedVersion: 2
       minMaxState: 3
-      scalar: 0.08
-      minScalar: 0.03
+      scalar: 0.05
+      minScalar: 0.02
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -15402,8 +16406,8 @@ ParticleSystem:
     startSizeZ:
       serializedVersion: 2
       minMaxState: 3
-      scalar: 0.08
-      minScalar: 0.03
+      scalar: 0.05
+      minScalar: 0.02
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -15879,7 +16883,7 @@ ParticleSystem:
     rateOverTime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 100
+      scalar: 200
       minScalar: 10
       maxCurve:
         serializedVersion: 2
@@ -16147,11 +17151,11 @@ ParticleSystem:
         m_RotationOrder: 4
     separateAxes: 0
   RotationModule:
-    enabled: 0
+    enabled: 1
     x:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0
+      scalar: 0.25953045
       minScalar: 0
       maxCurve:
         serializedVersion: 2
@@ -16204,7 +17208,7 @@ ParticleSystem:
     y:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0
+      scalar: 1.7592919
       minScalar: 0
       maxCurve:
         serializedVersion: 2
@@ -16257,7 +17261,7 @@ ParticleSystem:
     curve:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.7853982
+      scalar: 3.1415925
       minScalar: 0.7853982
       maxCurve:
         serializedVersion: 2
@@ -16307,7 +17311,7 @@ ParticleSystem:
         m_PreInfinity: 2
         m_PostInfinity: 2
         m_RotationOrder: 4
-    separateAxes: 0
+    separateAxes: 1
   ColorModule:
     enabled: 0
     gradient:
@@ -18557,7 +19561,7 @@ ParticleSystem:
         m_PreInfinity: 2
         m_PostInfinity: 2
         m_RotationOrder: 4
-    separateAxes: 0
+    separateAxes: 1
     range: {x: 0, y: 1}
   ColorBySpeedModule:
     enabled: 0
@@ -18830,7 +19834,7 @@ ParticleSystem:
       emitProbability: 1
   LightsModule:
     enabled: 0
-    ratio: 0
+    ratio: 0.55
     light: {fileID: 0}
     randomDistribution: 1
     color: 1
@@ -18892,7 +19896,7 @@ ParticleSystem:
     intensityCurve:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 1
+      scalar: 6
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -19775,11 +20779,11 @@ Transform:
   m_GameObject: {fileID: 1952325349}
   serializedVersion: 2
   m_LocalRotation: {x: -0.0000014603138, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.79, y: 3.24, z: 3.25}
+  m_LocalPosition: {x: 16.008904, y: 4.27202, z: -3.9290748}
   m_LocalScale: {x: 1.4144639, y: 0.53569406, z: 1.6639999}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 773833534}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1974311630
 GameObject:
@@ -19960,6 +20964,7 @@ GameObject:
   - component: {fileID: 1985075516}
   - component: {fileID: 1985075518}
   - component: {fileID: 1985075517}
+  - component: {fileID: 1985075519}
   m_Layer: 0
   m_Name: ClassRoom_StChairV2 (1)
   m_TagString: Untagged
@@ -20032,6 +21037,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1985075515}
   m_Mesh: {fileID: 1460180513498859384, guid: d48548b58d6b59f42bde5cb26027156d, type: 3}
+--- !u!65 &1985075519
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1985075515}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.4400001, y: 0.031827994, z: 0.41361645}
+  m_Center: {x: 0, y: 0.40765053, z: -0.005578358}
 --- !u!1 &2003034151
 GameObject:
   m_ObjectHideFlags: 0
@@ -20292,6 +21318,7 @@ GameObject:
   - component: {fileID: 2019635810}
   - component: {fileID: 2019635812}
   - component: {fileID: 2019635811}
+  - component: {fileID: 2019635813}
   m_Layer: 0
   m_Name: ClassRoom_StChairV2
   m_TagString: Untagged
@@ -20364,6 +21391,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2019635809}
   m_Mesh: {fileID: 1460180513498859384, guid: d48548b58d6b59f42bde5cb26027156d, type: 3}
+--- !u!65 &2019635813
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2019635809}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.4400001, y: 0.031827994, z: 0.41361645}
+  m_Center: {x: 0, y: 0.40765053, z: -0.005578358}
 --- !u!1 &2043941259
 GameObject:
   m_ObjectHideFlags: 0
@@ -21016,6 +22064,7 @@ GameObject:
   - component: {fileID: 2124387277}
   - component: {fileID: 2124387279}
   - component: {fileID: 2124387278}
+  - component: {fileID: 2124387280}
   m_Layer: 0
   m_Name: ClassRoom_StChairV2
   m_TagString: Untagged
@@ -21088,6 +22137,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2124387276}
   m_Mesh: {fileID: 1460180513498859384, guid: d48548b58d6b59f42bde5cb26027156d, type: 3}
+--- !u!65 &2124387280
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2124387276}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.4400001, y: 0.031827994, z: 0.41361645}
+  m_Center: {x: 0, y: 0.40765053, z: -0.005578358}
 --- !u!1 &2144530225
 GameObject:
   m_ObjectHideFlags: 0
@@ -21099,6 +22169,7 @@ GameObject:
   - component: {fileID: 2144530226}
   - component: {fileID: 2144530228}
   - component: {fileID: 2144530227}
+  - component: {fileID: 2144530229}
   m_Layer: 0
   m_Name: ClassRoom_StChairV2
   m_TagString: Untagged
@@ -21171,6 +22242,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2144530225}
   m_Mesh: {fileID: 1460180513498859384, guid: d48548b58d6b59f42bde5cb26027156d, type: 3}
+--- !u!65 &2144530229
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2144530225}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.4400001, y: 0.031827994, z: 0.41361645}
+  m_Center: {x: 0, y: 0.40765053, z: -0.005578358}
 --- !u!33 &166011899649035075
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -21507,6 +22599,7 @@ GameObject:
   - component: {fileID: 1943918803300896496}
   - component: {fileID: 3266785726628151637}
   - component: {fileID: 770400337758270879}
+  - component: {fileID: 3266785726628151638}
   m_Layer: 0
   m_Name: TeacherTableV2
   m_TagString: Untagged
@@ -21558,6 +22651,7 @@ GameObject:
   - component: {fileID: 1843971315618812529}
   - component: {fileID: 3330624890619764180}
   - component: {fileID: 710503283879831838}
+  - component: {fileID: 3330624890619764181}
   m_Layer: 0
   m_Name: Radiator
   m_TagString: Untagged
@@ -21852,6 +22946,7 @@ GameObject:
   - component: {fileID: 1696008102489173397}
   - component: {fileID: 2316739132451332656}
   - component: {fileID: 559082689858295546}
+  - component: {fileID: 2316739132451332657}
   m_Layer: 0
   m_Name: ClassRoom_StChairV2
   m_TagString: Untagged
@@ -21870,6 +22965,7 @@ GameObject:
   - component: {fileID: 1595751704024405403}
   - component: {fileID: 2416995032400026174}
   - component: {fileID: 463329135910366964}
+  - component: {fileID: 2416995032400026175}
   m_Layer: 0
   m_Name: Board
   m_TagString: Untagged
@@ -21885,6 +22981,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2072428573733254959}
   m_Mesh: {fileID: 1460180513498859384, guid: d48548b58d6b59f42bde5cb26027156d, type: 3}
+--- !u!65 &2316739132451332657
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2072428573733254959}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.4400001, y: 0.031827994, z: 0.41361645}
+  m_Center: {x: 0, y: 0.40765053, z: -0.005578358}
 --- !u!23 &2369327196564958060
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -21935,6 +23052,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2120895347049434913}
   m_Mesh: {fileID: -2355441349389071466, guid: 560987c6cdf10704bb42313a2ebeab68, type: 3}
+--- !u!65 &2416995032400026175
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2120895347049434913}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 4.401259, y: 2.1569235, z: 0.06462511}
+  m_Center: {x: 0.00000035762787, y: -0.0348469, z: 0.03231277}
 --- !u!4 &2432513586782595681
 Transform:
   m_ObjectHideFlags: 0
@@ -22090,6 +23228,7 @@ GameObject:
   - component: {fileID: 2472502283650324494}
   - component: {fileID: 1585210097793947563}
   - component: {fileID: 3610544837944550241}
+  - component: {fileID: 3610544837944550242}
   m_Layer: 0
   m_Name: ClassRoom_TrashCan
   m_TagString: Untagged
@@ -22196,6 +23335,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1275081054818112586}
   m_Mesh: {fileID: -3546915446379347925, guid: 9b91ba0e7bd90f0449e96fca675af0a3, type: 3}
+--- !u!65 &3266785726628151638
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1275081054818112586}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.4176757, y: 0.7782566, z: 0.75385314}
+  m_Center: {x: 0, y: 0.38912827, z: 0.00000023841858}
 --- !u!4 &3303449995016585392
 Transform:
   m_ObjectHideFlags: 0
@@ -22219,6 +23379,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1359183876542974155}
   m_Mesh: {fileID: -7196802604745430461, guid: a693c6fbe7b57ff43ae3517a0f5ad0b7, type: 3}
+--- !u!65 &3330624890619764181
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1359183876542974155}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.4804612, y: 0.8961646, z: 0.14000021}
+  m_Center: {x: -0.0000005066395, y: 0.4479176, z: -0.00000009313225}
 --- !u!4 &3345576815460443383
 Transform:
   m_ObjectHideFlags: 0
@@ -22318,6 +23499,27 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &3610544837944550242
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2962180080348005044}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.33526775, y: 0.60149264, z: 0.32231256}
+  m_Center: {x: 0.0059070503, y: 0.30074632, z: 0.0019836768}
 --- !u!4 &3677296961042257235
 Transform:
   m_ObjectHideFlags: 0
@@ -22565,6 +23767,7 @@ GameObject:
   - component: {fileID: 5039820548007605630}
   - component: {fileID: 8241254730076666587}
   - component: {fileID: 6177292491065839121}
+  - component: {fileID: 8241254730076666588}
   m_Layer: 0
   m_Name: TeacherChairV2
   m_TagString: Untagged
@@ -23022,6 +24225,7 @@ GameObject:
   - component: {fileID: 7535785008330313047}
   - component: {fileID: 6862262198802121458}
   - component: {fileID: 8709768531453015608}
+  - component: {fileID: 8709768531453015609}
   m_Layer: 0
   m_Name: JacketHanger
   m_TagString: Untagged
@@ -23082,6 +24286,7 @@ GameObject:
   - component: {fileID: 7974527269420493817}
   - component: {fileID: 6414513288758322268}
   - component: {fileID: 9142336450772504726}
+  - component: {fileID: 9142336450772504727}
   m_Layer: 0
   m_Name: ClassRoom_StTablev2
   m_TagString: Untagged
@@ -23445,6 +24650,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5673087175391276996}
   m_Mesh: {fileID: 3594046238377513156, guid: 1ba9c80d5f25e444fa8fdc4fc43afa1c, type: 3}
+--- !u!65 &8241254730076666588
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5673087175391276996}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.44902003, y: 0.06542247, z: 0.40333095}
+  m_Center: {x: -0.009556055, y: 0.4601628, z: 0.00047108138}
 --- !u!1 &8242740042532659052
 GameObject:
   m_ObjectHideFlags: 0
@@ -23490,6 +24716,7 @@ GameObject:
   - component: {fileID: 8654171390648050358}
   - component: {fileID: 5743796595802238227}
   - component: {fileID: 7517325657982048729}
+  - component: {fileID: 8654171390648050359}
   m_Layer: 0
   m_Name: ClassRoomDoor
   m_TagString: Untagged
@@ -23582,6 +24809,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 937385770}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &8654171390648050359
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8309734686764873740}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.0010600231, y: 0.009107562, z: 0.015784737}
+  m_Center: {x: -0.00038599453, y: -0.0044726515, z: -0.000043983095}
 --- !u!23 &8698568019662719941
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -23666,6 +24914,27 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &8709768531453015609
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7196660006480926701}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.06826957, y: 0.26474658, z: 6.152936}
+  m_Center: {x: 0.0066550146, y: 0.0036603434, z: 0.016613243}
 --- !u!4 &8732418968271996374
 Transform:
   m_ObjectHideFlags: 0
@@ -23787,6 +25056,27 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &9142336450772504727
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7341121244035100995}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.2885622, y: 0.7132286, z: 0.6382127}
+  m_Center: {x: 0.00000017881393, y: 0.35679796, z: 0.01910591}
 --- !u!4 &9194096662793803499
 Transform:
   m_ObjectHideFlags: 0
@@ -23818,7 +25108,3 @@ SceneRoots:
   - {fileID: 410087041}
   - {fileID: 698698439}
   - {fileID: 1800080126}
-  - {fileID: 1742268898}
-  - {fileID: 334041844}
-  - {fileID: 1952325352}
-  - {fileID: 588557368}
