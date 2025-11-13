@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Shader Graphs_RetroDither
-  m_Shader: {fileID: -6465566751694194690, guid: 7990bc88e1c68074dbb176fd15992e14,
+  m_Name: CrtMat
+  m_Shader: {fileID: -6465566751694194690, guid: f479bd8c528bbd547afc0963a78a5397,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -38,7 +38,9 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _ColorResolution: 1000
-    - _DitherSpread: 163
-    m_Colors: []
+    - _Blur_Offset: 0.0015
+    - _Number_of_Scan_Lines: 10000
+    - _Scan_Lines_Speed: -0.003
+    m_Colors:
+    - _Color: {r: 2.9960785, g: 2.9960785, b: 2.9960785, a: 0}
   m_BuildTextureStacks: []
