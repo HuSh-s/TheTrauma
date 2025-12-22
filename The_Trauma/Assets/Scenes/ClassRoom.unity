@@ -30365,7 +30365,7 @@ MonoBehaviour:
   LockerSoundOpen: {fileID: 1702938683}
   LockerSoundClose: {fileID: 661387939}
   inReach: 0
-  isLocked: 1
+  isLocked: 0
   correctCode: 000000000000000000000000
   enteredCode: 000000000000000000000000
   isCodePanelOpen: 0
@@ -37081,7 +37081,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.000061035156, y: -3.2800293}
+  m_AnchoredPosition: {x: 0, y: -3.2800293}
   m_SizeDelta: {x: -258.0034, y: -152.7608}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1138367873
