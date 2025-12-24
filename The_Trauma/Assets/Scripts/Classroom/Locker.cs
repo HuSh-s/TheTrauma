@@ -71,7 +71,7 @@ public class Locker : MonoBehaviour
         {
             ReadNumberInput();
 
-            if (Input.GetKeyDown(KeyCode.Escape))
+            if (Input.GetKeyDown(KeyCode.Tab))
                 CloseCodePanel();
         }
     }
